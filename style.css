@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    height: 200px;;
+}
+.container {
+    border: 2px solid black;
+    width: 480px;
+    height: 380px;
+    margin-left: 20px;
+    margin-right: 40px;
+}
+
+.box {
+    border: 20px solid black;
+    width: 110px;
+    height: 85px;
+    color:white;
+}
+
+.box1 {
+    background-color: red
+}
+
+.box2 {
+    background-color: green;
+}
+
+.box3 {
+    background-color: purple;
+}
+
+.box4{
+    background: linear-gradient(red, black);
+    position:sticky;
+    top: 100px;
+}
