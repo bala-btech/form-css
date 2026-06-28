@@ -3,18 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Layout Task</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
-    <div class=".container">
-        <div class="box box1">Box1</div>
-        <div class="box box2">Box2</div>
-        <div class="box box3">Box3</div>
+    <form for="">
+        <h2>Student Registration Form</h2>
+    <div> 
+        <label for="">Full Name:</label><br>
+        <input type="text" placeholder="Enter your name" required>
     </div>
-
-    <div class="box box4">Box4</div>
-
+    <br>
+       <div>
+        <label for="">Email:</label><br>
+        <input type="email" placeholder="Enter your mail" required>
+    </div>
+    <br>
+    <div>
+        <label for="">Password:</label><br>
+        <input type="password" required>
+    </div>
+    <br>
+    <div>
+        <label for="">Gender:</label><br>
+        <label for="male"><input type="radio" name="Gender" id="male" required>Male</label>
+         <label for="female"><input type="radio" name="Gender" id="female" required>Female</label>
+    </div>
+    <br>
+    <div>
+        <label for="">Skills:</label><br>
+        <label for="ht"><input type="checkbox" name="skills" id=ht >HTML</label>
+        <label for="cs"><input type="checkbox" name="skills" id=cs >CSS</label>
+        <label for="js"><input type="checkbox" name="skills" id=js >JavaScript</label>
+    </div>
+    <br>
+    <div>
+        <label for="">Date of Birth:</label><br>
+        <input type="date">
+    </div>
+    <br>
+    <button type="submit">Register</button>
+    <hr>
+    </form>
+    <form for="">
+        <h2>Submitted Students only(Dummy Data)</h2>
+        <table border="3" cellpadding="8">
+            <tr>
+                <th>Name</th>
+                <th>Email</th>
+                <th>Gender</th>
+                <th>Skills</th>
+                <th>DOB</th>
+            </tr>
+            <tr>
+                <td>Alice</td>
+                <td>alicd@example.com</td>
+                <td>Female</td>
+                <td>HTML,CSS</td>
+                <td>2002-05-10</td>
+            </tr>
+            <tr>
+                <td>Bob</td>
+                <td>bob@example.com</td>
+                <td>Male</td>
+                <td>JavaScript</td>
+                <td>2001-11-22</td>
+            </tr>
+        </table>
+    </form>
 </body>
 </html>
